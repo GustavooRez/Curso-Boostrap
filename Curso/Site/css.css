@@ -1,0 +1,180 @@
+
+
+.nav-link{
+	color: black !important;
+}
+.fundo{
+	background: url('img/fundo_principal.jpg') no-repeat center;
+	background-size: cover;
+}
+
+.fundo_prefooter{
+	background: url('img/fundo_bicicleta.jpg') no-repeat center;
+	background-size: cover;
+	height: 10%;
+}
+
+.fundo_produtos{
+	background: url('img/bg-produtos.jpg') no-repeat center;
+	background-size: cover;
+}
+
+.fundo_contato{
+	background: url('img/bg-contato.jpg') no-repeat center;
+	background-size: cover;
+}
+
+.fundo_sobre{
+	background: url('img/bg-sobre.jpg') no-repeat center;
+	background-size: cover;
+}
+
+.fundo_portifolio{
+	background: url('img/bg-portfolio.jpg') no-repeat center;
+	background-size: cover;
+}
+
+.fundo_passeios{
+	background: url('img/bikcraft-passeio-1.jpg') no-repeat center;
+	background-size: cover;
+	height: 14rem;
+}
+
+.fundo_esporte{
+	background: url('img/bikcraft-esporte-1.jpg') no-repeat center;
+	background-size: cover;
+	height: 14rem;
+}
+
+.fundo_retro{
+	background: url('img/bikcraft-retro-1.jpg') no-repeat center;
+	background-size: cover;
+	height: 14rem;
+}
+.fundo_tamanho_produtos img{
+	height: 14rem;
+}
+
+.tabela_produtos{
+	width: 95%!important;
+}
+
+.fundo_principal{
+	padding: 5% 0% 5% 0%;
+}
+
+.texto_passeio{
+	padding: 5%;
+}
+
+.padding_produtos{
+	padding: 12% 0 11% 0;
+}
+.produto{
+	padding: 5% 0 5% 0;
+}
+
+.blog-post{
+	color: black!important;
+	font-size: 1.5rem;
+}
+
+
+.quadrados{
+	margin: 0% 3% 0 3%;
+}
+
+.quadrados p{
+	padding: 1% 0 1% 0%;
+}
+
+.fundo_preto{
+	background: black;
+}
+
+.fundo_amarelo{
+	background: #fec63e;
+}
+
+.formulário_produto input{
+	background: none
+}
+.formulário_produto textarea{
+	background: none
+}
+
+.direitos{
+	padding: 1% 0 1% 0;
+}
+
+.footer_info{
+	padding: 2% 0 2% 0;
+}
+
+.formulario_contato label{
+	color: black;
+}
+.infos::after{
+	content: '';
+	width: 60px;
+	height: 3px;
+	background: currentColor;
+	display: block;
+	margin: 10px 0px;
+}
+}
+
+h2::after{
+	content: '';
+	width: 140px;
+	height: 4px;
+	background: currentColor;
+	display: block;
+	margin: 10px auto;
+}
+.titulo_sobre::after{
+	content: '';
+	width: 140px;
+	height: 4px;
+	background: currentColor;
+	display: block;
+	margin: 10px 0;
+}
+
+
+blockquote::before{
+	content: '';
+	width: 140px;
+	height: 4px;
+	background: currentColor;
+	display: block;
+	margin: 10px auto;
+}
+
+cite::before{
+	content: '';
+	width: 140px;
+	height: 4px;
+	background: currentColor;
+	display: block;
+	margin: 10px auto;
+}
+
+.titulo_traco::after{
+	content: '';
+	width: 140px;
+	height: 4px;
+	background: currentColor;
+	display: block;
+	margin: 10px auto;
+}
+
+
+.traco_h5::after{
+	content: '';
+	width: 60px;
+	height: 2px;
+	background: currentColor;
+	display: block;
+	margin: 10px auto;
+}

@@ -1,0 +1,239 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+	<title>Teste Bootstrap</title>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+	<link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css" integrity="sha384-MCw98/SFnGE8fJT3GXwEOngsV7Zt27NXFoaoApmYm81iuXoPkFOJwJ8ERdknLPMO" crossorigin="anonymous">
+
+	<link rel="stylesheet" type="text/css" href="css.css">
+	<script type="text/javascript" src="bootstrap.js"></script>
+	<link rel="sortcut icon" href="img/bikcraft-qualidade.svg" type="image/x-icon" />
+	
+	<script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
+	<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.3/umd/popper.min.js" integrity="sha384-ZMP7rVo3mIykV+2+9J3UJ46jBk0WLaUAdn689aCwoqbBJiSnjAK/l8WvCWPIPm49" crossorigin="anonymous"></script>
+	<script src="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/js/bootstrap.min.js" integrity="sha384-ChfqqxuZUCnJSK3+MXmPNIyE6ZbWh2IMqE241rYiqJxyMiZ6OW/JmZQ5stwEULTy" crossorigin="anonymous"></script>
+
+</head>
+<body>
+	<header>
+		<nav class="navbar  navbar-expand-md fundo_amarelo">
+			<div class="container">
+				<a href="index.html" class="navbar-brand">
+					<img src="img/logo.svg"  alt="">
+				</a>
+				<button class="navbar-toggler " type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+					<span class="navbar-toggler-icon"> </span>
+				</button>
+
+				<div class="collapse navbar-collapse" id="navbarSupportedContent">
+
+					<ul class="navbar-nav ml-auto px-5">
+						<li class="nav-item ">
+							<a class="nav-link" href="sobre.html">SOBRE</a>
+						</li>
+						<li class="nav-item">
+							<a class="nav-link" href="produtos.html">PRODUTOS</a>
+						</li>
+						<li class="nav-item">
+							<a class="nav-link" href="portifolio.html">PORTIFÓLIO</a>
+						</li>
+						<li class="nav-item">
+							<a class="nav-link" href="contato.html">CONTATO</a>
+						</li>
+						<li class="nav-item">
+							<a class="nav-link" href="blog.html">BLOG</a>
+						</li>
+					</ul>
+				</div>
+			</nav>
+		</div>
+	</header>
+
+	<section class="fundo">
+		<div class="container fundo_principal">
+			<h1 class="text-white text-center"> BICICLETAS FEITAS A MÃO</h1>
+
+			<blockquote class=" text-white text-center">
+				<p class="container">“não tenha nada em sua casa que você não<br> considere útil ou acredita ser bonito”</p>
+				<cite> WILLIAM MORRIS </cite>
+			</blockquote>
+
+			<a href="produtos.html"><div class="text-center"> <button type="button" class="btn btn-outline-warning ">ORÇAMENTO</button> </div></a>
+		</div>		
+	</section>
+
+	<section class="produto">
+		<h2 class="text-black text-center titulo_traco"> PRODUTOS</h2>
+
+		<div class="container">
+
+			<div class="card-deck pt-3">
+				<div class="card">
+					<img class="card-img-top fundo_preto" src="img/passeio.svg" alt="Imagem de capa do card">
+					<div class="card-body text-center fundo_amarelo">
+						<h5 class="card-title traco_h5">PASSEIO</h5>
+						<p class="card-text">Muito melhor do que passear pela orla a vidros fechados.</p>
+					</div>
+				</div>
+				<div class="card">
+					<img class="card-img-top fundo_preto" src="img/esporte.svg" alt="Imagem de capa do card">
+					<div class="card-body text-center fundo_amarelo">
+						<h5 class="card-title traco_h5">ESPORTE</h5>
+						<p class="card-text">Mais rápida do que Forrest Gump, ninguém vai pegar você..</p>
+					</div>
+				</div>
+				<div class="card">
+					<img class="card-img-top fundo_preto" src="img/retro.svg" alt="Imagem de capa do card text-center">
+					<div class="card-body text-center fundo_amarelo">
+						<h5 class="card-title traco_h5">RETRÔ</h5>
+						<p class="card-text">O passado volta para lembrarmos o que devemos fazer no futuro.</p>
+					</div>
+				</div>
+			</div>
+
+			<p class="text-center text-black pt-3 pt-md-4" >Clique aqui e veja os detalhes dos produtos</p>
+
+			<a href="produtos.html"><div class="text-center"> <button type="button" class="btn btn-outline-warning ">PRODUTOS</button> </div></a>
+
+		</div>
+	</section>
+
+	<section class="fundo_preto py-2">
+		<h2 class="text-warning text-center titulo_traco py-3"> PORTIFÓLIO</h2>
+
+		<div class="container py-3">
+			<div class="row justify-content-center">
+				<div class="col">
+					
+					<div id="carouselExampleSlidesOnly" class="carousel slide" data-ride="carousel">
+						<div class="carousel-inner">
+							<div class="carousel-item active">
+								<img class="d-block w-100" src="img/retro.jpg" alt="First slide">
+							</div>
+							<div class="carousel-item">
+								<img class="d-block w-100" src="img/passeio.jpg" alt="Second slide">
+							</div>
+						</div>
+					</div>
+
+				</div>
+
+				<div class="col">
+					<div id="carouselExampleSlidesOnly" class="carousel slide" data-ride="carousel">
+						<div class="carousel-inner">
+							<div class="carousel-item active">
+								<img class="d-block w-100" src="img/passeio.jpg" alt="First slide">
+							</div>
+							<div class="carousel-item">
+								<img class="d-block w-100" src="img/retro.jpg" alt="Second slide">
+							</div>
+						</div>
+					</div>
+
+				</div>
+			</div> 
+			
+			<div class="row justify-content-center pt-4">
+				<img style="width: 97%" src="img/esporte.jpg">
+			</div>
+
+			<p class="text-center text-white pt-3 pt-md-4" >Conheça mais o nosso portfólio</p>
+
+			<a href="portifolio.html"><div class="text-center"> <button type="button" class="btn btn-outline-warning ">PORTIFÓLIO</button> </div></a>
+		</div>
+
+	</section>
+
+	<section class="pb-5">
+		<div class="container py-3" >
+			<h3 class="text-black text-center titulo_traco"> QUALIDADE </h3>
+		</div>
+
+		<div class="container pt-3 pb-5">
+			<div class="row justify-content-center">
+				<div class="col-auto">
+					<img src="img/bikcraft-qualidade.svg">
+				</div>
+			</div>
+		</div>
+
+		<div class="container">
+			<div class="row justify-content-center">
+				<div class="col-10 col-sm-3">
+					<h3 class="text-black text-center titulo_traco"> DURABILIDADE </h3>
+					<p class="text-center">
+						Sólida como pedra, leve como o vento e resistente como o diamante, são nossos diferenciais.
+					</p>
+				</div>
+
+				<div class="col-10 col-sm-3">
+					<h3 class="text-black text-center titulo_traco"> DESIGN </h3>
+					<p class="text-center">
+						Feitas sob medida para o melhor conforto e eficiência. Adaptamos a sua Bikcraft para o seu corpo.
+					</p>
+				</div>
+
+				<div class="col-10 col-sm-3">
+					<h3 class="text-black text-center titulo_traco"> SUSTENTABILIDADE </h3>
+					<p  class="text-center">Além de ajudar a cuidar do meio ambiente, tirando carros da rua, toda a produção é sustentável.</p>
+				</div>
+			</div>
+
+		</div>
+
+		<p class="text-center text-black pt-3 pt-md-4" >Conheça mais a nossa história</p>
+
+		<a href="sobre.html"><div class="text-center"> <button type="button" class="btn btn-outline-warning ">SOBRE</button> </div></a>
+	</section>
+
+	<section class="fundo_prefooter">
+		<div class="container fundo_principal">
+
+			<blockquote class=" text-white text-center">
+				<p class="container">“o verdadeiro segredo da felicidade está em ter um genuíno<br> interesse por todos os detalhes da vida cotidiana.”</p>
+				<cite> WILLIAM MORRIS </cite>
+			</blockquote>	
+		</div>		
+	</section>
+
+	<section class="fundo_preto">
+		<div class="container footer_info">
+			<div class="row justify-content-center" style="margin: 0!important">
+				<div class="col-10 col-sm-5 ">
+					<h5 class="text-warning infos " > NOSSA HISTÓRIA </h5>
+					<p class="text-white footer_info"> Quando iniciamos a Bikcraft queriamos apenas um produto que adoraríamos utilizar. Eramos apaixonados por pedalar e também por fazer as coisas com as nossas próprias mãos. Assim surgiu um sonho na garagem da nossa casa.</p>
+				</div>
+				<div class="col-10 col-md-3">
+					<h5 class="text-warning  infos "> CONTATO </h5>
+					<p class="text-white footer_info">- +55 21 9999-9999 <br>- contato@bikcraft.com<br>- Rua Ali Perto - Botafogo</p>
+				</div>
+				<div class="col-10 col-md-3">
+					<h5 class="text-warning infos " > REDES SOCIAIS </h5>
+					<div class="container">
+						<div class="row footer_info">
+							<a ><div class="col-3 ">
+								<img src="img/facebook.svg">
+							</div></a>
+							<div class="col-3 ">
+								<img src="img/instagram.svg">
+							</div>
+							<div class="col-3 ">
+								<img src="img/twitter.svg">
+							</div>
+						</div>
+					</div>
+				</div>
+			</div>
+		</div>
+
+	</section>
+
+	<footer class="fundo_amarelo direitos">
+		<div class="container text-black">Bikcraft 2020 - Alguns direitos reservados.
+		</div>
+	</footer>
+
+
+</body>
+</html>
